@@ -2017,8 +2017,8 @@ fieldset:disabled a.btn {
   border-color: #d35400; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #4425cb;
-    border-color: #4123c0; }
+    background-color: #df6818;
+    border-color: #df6818; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(114, 88, 224, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
@@ -2028,8 +2028,8 @@ fieldset:disabled a.btn {
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #4123c0;
-    border-color: #3d21b5; }
+    background-color: #df6818;
+    border-color: #df6818; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(114, 88, 224, 0.5); }
@@ -3835,7 +3835,7 @@ input[type="button"].btn-block {
   background-color: #d35400; }
   a.badge-primary:hover, a.badge-primary:focus {
     color: #fff;
-    background-color: #4123c0; }
+    background-color: #df6818; }
   a.badge-primary:focus, a.badge-primary.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(89, 59, 219, 0.5); }
@@ -4927,7 +4927,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #4123c0 !important; }
+  background-color: #df6818 !important; }
 
 .bg-secondary {
   background-color: #673BB7 !important; }
@@ -7608,16 +7608,16 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #d35400 !important; }
+  color: #df6818 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #391faa !important; }
+  color: #d5783a !important; }
 
 .text-secondary {
   color: #673BB7 !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #46287d !important; }
+  color: #df6818 !important; }
 
 .text-success {
   color: #7ED321 !important; }
@@ -10565,7 +10565,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
     [data-sibebarbg="color_2"][data-layout="horizontal"] .quixnav .metismenu > li.mega-menu:hover > ul::after {
       background-color: #161828; }
     [data-sibebarbg="color_3"][data-layout="horizontal"] .quixnav .metismenu > li.mega-menu:hover > ul::after {
-      background-color: #4123c0; }
+      background-color: #df6818; }
     [data-sibebarbg="color_4"][data-layout="horizontal"] .quixnav .metismenu > li.mega-menu:hover > ul::after {
       background-color: #331d77; }
     [data-sibebarbg="color_5"][data-layout="horizontal"] .quixnav .metismenu > li.mega-menu:hover > ul::after {
@@ -11555,11 +11555,11 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   [data-headerbg="color_3"] .header-left input::placeholder {
     color: #fff; }
   [data-headerbg="color_3"] .header-left input:focus {
-    border-color: #4123c0; }
+    border-color: #df6818; }
 
 [data-headerbg="color_3"] .header-left .btn {
-  background-color: #4123c0;
-  border-color: #4123c0; }
+  background-color: #df6818;
+  border-color: #df6818; }
   [data-headerbg="color_3"] .header-left .btn:hover, [data-headerbg="color_3"] .header-left .btn:focus, [data-headerbg="color_3"] .header-left .btn:active {
     background-color: #321b95;
     border-color: #321b95; }
@@ -11568,7 +11568,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   color: #fff; }
 
 [data-headerbg="color_3"] .nav-control {
-  background-color: #4123c0;
+  background-color: #df6818;
   color: #fff; }
 
 [data-headerbg="color_4"] .header {
@@ -11790,7 +11790,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     [data-sibebarbg="color_3"] .quixnav .metismenu a:hover, [data-sibebarbg="color_3"] .quixnav .metismenu a:focus, [data-sibebarbg="color_3"] .quixnav .metismenu a.mm-active {
       color: #fff; }
   [data-sibebarbg="color_3"] .quixnav .metismenu ul {
-    background-color: #4123c0; }
+    background-color: #df6818; }
 
 [data-sibebarbg="color_4"] .quixnav {
   background-color: #4527a0; }
