@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-require_once "./head.php"; 
-?>
+<?php require_once "./head.php";?>
 
 <body>
 
@@ -30,9 +28,7 @@ require_once "./head.php";
         <!--**********************************
             Nav header start
         ***********************************-->
-        <?php
-        require_once "./nav_header.php"; 
-        ?>
+        <?php require_once "./nav_header.php"; ?>
         <!--**********************************
             Nav header end
         ***********************************-->
@@ -40,104 +36,7 @@ require_once "./head.php";
         <!--**********************************
             Header start
         ***********************************-->
-        <div class="header">
-            <div class="header-content">
-                <nav class="navbar navbar-expand">
-                    <div class="collapse navbar-collapse justify-content-between">
-                        <div class="header-left">
-                            <div class="search_bar dropdown">
-                                <span class="search_icon p-3 c-pointer" data-toggle="dropdown">
-                                    <i class="mdi mdi-magnify"></i>
-                                </span>
-                                <div class="dropdown-menu p-0 m-0">
-                                    <form>
-                                        <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-
-                        <ul class="navbar-nav header-right">
-                            <li class="nav-item dropdown notification_dropdown">
-                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
-                                    <i class="mdi mdi-bell"></i>
-                                    <div class="pulse-css"></div>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <ul class="list-unstyled">
-                                        <li class="media dropdown-item">
-                                            <span class="success"><i class="ti-user"></i></span>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <p><strong>Martín</strong> ha agregado un <strong>cliente</strong> exitosamente.</p>
-                                                </a>
-                                            </div>
-                                            <span class="notify-time">3:20 am</span>
-                                        </li>
-                                        <li class="media dropdown-item">
-                                            <span class="primary"><i class="ti-shopping-cart"></i></span>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <p><strong>Jennifer</strong> compró el Light Dashboard 2.0.</p>
-                                                </a>
-                                            </div>
-                                            <span class="notify-time">3:20 am</span>
-                                        </li>
-                                        <li class="media dropdown-item">
-                                            <span class="danger"><i class="ti-bookmark"></i></span>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <p><strong>Robin</strong> marcó un <strong>ticket</strong> como no resuelto.</p>
-                                                </a>
-                                            </div>
-                                            <span class="notify-time">3:20 am</span>
-                                        </li>
-                                        <li class="media dropdown-item">
-                                            <span class="primary"><i class="ti-heart"></i></span>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <p><strong>David</strong> compró el Light Dashboard 1.0.</p>
-                                                </a>
-                                            </div>
-                                            <span class="notify-time">3:20 am</span>
-                                        </li>
-                                        <li class="media dropdown-item">
-                                            <span class="success"><i class="ti-image"></i></span>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <p><strong>James</strong> ha agregado un <strong>cliente</strong> exitosamente.</p>
-                                                </a>
-                                            </div>
-                                            <span class="notify-time">3:20 am</span>
-                                        </li>
-                                    </ul>
-                                    <a class="all-notification" href="#">Ver todas las notificaciones <i class="ti-arrow-right"></i></a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown header-profile">
-                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
-                                    <i class="mdi mdi-account"></i>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a href="./app-profile.html" class="dropdown-item">
-                                        <i class="icon-user"></i>
-                                        <span class="ml-2">Perfil</span>
-                                    </a>
-                                    <a href="./email-inbox.html" class="dropdown-item">
-                                        <i class="icon-envelope-open"></i>
-                                        <span class="ml-2">Bandeja de entrada</span>
-                                    </a>
-                                    <a href="./page-login.html" class="dropdown-item">
-                                        <i class="icon-key"></i>
-                                        <span class="ml-2">Cerrar sesión</span>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
+        <?php require_once "./header.php"; ?>
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -145,54 +44,7 @@ require_once "./head.php";
         <!--**********************************
             Sidebar start
         ***********************************-->
-        <div class="quixnav">
-            <div class="quixnav-scroll">
-                <ul class="metismenu" id="menu">
-                    <li class="nav-label first">Menu Administrador</li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
-                                class="icon icon-single-04"></i><span class="nav-text">Inicio</span></a>
-                        <ul aria-expanded="false">
-                            <li><a href="./index.html">Panel de Control</a></li>                           
-                        </ul>
-                    </li>
-                    <li class="nav-label">Menu Profesor</li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
-                        class="icon icon-app-store"></i><span class="nav-text">Mi Aula SAE</span></a>
-                            <ul aria-expanded="false">
-                               <!-- <li><a href="./app-profile.html">Profile</a></li>
-                                <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="./email-compose.html">Compose</a></li>
-                                        <li><a href="./email-inbox.html">Inbox</a></li>
-                                        <li><a href="./email-read.html">Read</a></li>
-                                    </ul>
-                                </li> -->
-                                <li><a href="./form-nuevo-sae.html">Nuevo SAE</a></li>
-                                <li><a href="./form-tabla-sae.html">Ver mis SAE</a></li>
-                            </ul>
-                    </li>
-                    <li class="nav-label">Menu Suscriptor</li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
-                        class="icon icon-app-store"></i><span class="nav-text">Actividades</span></a>
-                            <ul aria-expanded="false">
-                               <!-- <li><a href="./app-profile.html">Profile</a></li>
-                                <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="./email-compose.html">Compose</a></li>
-                                        <li><a href="./email-inbox.html">Inbox</a></li>
-                                        <li><a href="./email-read.html">Read</a></li>
-                                    </ul>
-                                </li> -->
-                                <li><a href="./app-calender.html">Listado de Actividades </a></li>
-                                <li><a href="./app-calender.html">Ver mis Actividades</a></li>
-                            </ul>
-                    </li>
-                   
-                </ul>
-            </div>
-
-
-        </div>
+        <?php require_once "./sidebar.php"; ?>
         <!--**********************************
             Sidebar end
         ***********************************-->
@@ -470,12 +322,7 @@ require_once "./head.php";
         <!--**********************************
             Footer start
         ***********************************-->
-        <div class="footer">
-            <div class="copyright">
-                <p>Copyright ©  &amp; Desarrollado por Estudiantes de Computación UNLPAM 2024<a href="#" target="_blank"></a></p>
-                <p>Derechos de distribución: BAUDIS-NAVA-MOREIRA <a href="https://index.html/" target="_blank"></a></p> 
-            </div>
-        </div>
+        <?php require_once "./footer.php"; ?>
         <!--**********************************
             Footer end
         ***********************************-->
@@ -498,35 +345,7 @@ require_once "./head.php";
         Scripts
     ***********************************-->
     <!-- Required vendors -->
-    <script src="./vendor/global/global.min.js"></script>
-    <script src="./js/quixnav-init.js"></script>
-    <script src="./js/custom.min.js"></script>
-
-
-    <!-- Vectormap -->
-    <script src="./vendor/raphael/raphael.min.js"></script>
-    <script src="./vendor/morris/morris.min.js"></script>
-
-
-    <script src="./vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="./vendor/chart.js/Chart.bundle.min.js"></script>
-
-    <script src="./vendor/gaugeJS/dist/gauge.min.js"></script>
-
-    <!--  flot-chart js -->
-    <script src="./vendor/flot/jquery.flot.js"></script>
-    <script src="./vendor/flot/jquery.flot.resize.js"></script>
-
-    <!-- Owl Carousel -->
-    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
-
-    <!-- Counter Up -->
-    <script src="./vendor/jqvmap/js/jquery.vmap.min.js"></script>
-    <script src="./vendor/jqvmap/js/jquery.vmap.usa.js"></script>
-    <script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
-
-
-    <script src="./js/dashboard/dashboard-1.js"></script>
+    <?php require_once "./script.php"; ?>
 
 </body>
 
