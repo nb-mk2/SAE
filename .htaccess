@@ -1,0 +1,21 @@
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /SAE/
+    
+    # Permitir caracteres acentuados en URLs
+    Options +FollowSymLinks
+    
+    # Forzar UTF-8 para ciertos tipos de archivos
+    AddCharset UTF-8 .html .php .css .js
+    
+    # Manejar errores
+    ErrorDocument 404 /SAE/404.php
+    ErrorDocument 500 /SAE/500.php
+</IfModule>
+
+# Configuración PHP
+<IfModule mod_php.c>
+    php_value default_charset "UTF-8"
+</IfModule>

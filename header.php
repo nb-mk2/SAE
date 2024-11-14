@@ -1,3 +1,7 @@
+<?php
+mb_internal_encoding('UTF-8');
+mb_http_output('UTF-8');
+?>
 <div class="header">
     <div class="header-content">
         <nav class="navbar navbar-expand">
@@ -22,53 +26,53 @@
                             <div class="pulse-css"></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <ul class="list-unstyled">
-                                <li class="media dropdown-item">
-                                    <span class="success"><i class="ti-user"></i></span>
-                                    <div class="media-body">
-                                        <a href="#">
-                                            <p><strong>Martín</strong> ha agregado un <strong>cliente</strong> exitosamente.</p>
-                                        </a>
-                                    </div>
-                                    <span class="notify-time">3:20 am</span>
-                                </li>
-                                <li class="media dropdown-item">
-                                    <span class="primary"><i class="ti-shopping-cart"></i></span>
-                                    <div class="media-body">
-                                        <a href="#">
-                                            <p><strong>Jennifer</strong> compró el Light Dashboard 2.0.</p>
-                                        </a>
-                                    </div>
-                                    <span class="notify-time">3:20 am</span>
-                                </li>
-                                <li class="media dropdown-item">
-                                    <span class="danger"><i class="ti-bookmark"></i></span>
-                                    <div class="media-body">
-                                        <a href="#">
-                                            <p><strong>Robin</strong> marcó un <strong>ticket</strong> como no resuelto.</p>
-                                        </a>
-                                    </div>
-                                    <span class="notify-time">3:20 am</span>
-                                </li>
-                                <li class="media dropdown-item">
-                                    <span class="primary"><i class="ti-heart"></i></span>
-                                    <div class="media-body">
-                                        <a href="#">
-                                            <p><strong>David</strong> compró el Light Dashboard 1.0.</p>
-                                        </a>
-                                    </div>
-                                    <span class="notify-time">3:20 am</span>
-                                </li>
-                                <li class="media dropdown-item">
-                                    <span class="success"><i class="ti-image"></i></span>
-                                    <div class="media-body">
-                                        <a href="#">
-                                            <p><strong>James</strong> ha agregado un <strong>cliente</strong> exitosamente.</p>
-                                        </a>
-                                    </div>
-                                    <span class="notify-time">3:20 am</span>
-                                </li>
-                            </ul>
+                        <ul class="list-unstyled">
+                            <li class="media dropdown-item">
+                                <span class="success"><i class="ti-calendar"></i></span>
+                                <div class="media-body">
+                                    <a href="#">
+                                        <p><strong>Juan Perez</strong> se inscribió en <strong>Fútbol</strong> exitosamente.</p>
+                                    </a>
+                                </div>
+                                <span class="notify-time">Hace 10 min</span>
+                            </li>
+                            <li class="media dropdown-item">
+                                <span class="primary"><i class="ti-user"></i></span>
+                                <div class="media-body">
+                                    <a href="#">
+                                        <p><strong>María García</strong> registró asistencia en <strong>Danza</strong>.</p>
+                                    </a>
+                                </div>
+                                <span class="notify-time">Hace 30 min</span>
+                            </li>
+                            <li class="media dropdown-item">
+                                <span class="danger"><i class="ti-close"></i></span>
+                                <div class="media-body">
+                                    <a href="#">
+                                        <p>Se canceló la clase de <strong>Ajedrez</strong> del día de hoy.</p>
+                                    </a>
+                                </div>
+                                <span class="notify-time">Hace 1 hora</span>
+                            </li>
+                            <li class="media dropdown-item">
+                                <span class="success"><i class="ti-trophy"></i></span>
+                                <div class="media-body">
+                                    <a href="#">
+                                        <p>Equipo de <strong>Básquetbol</strong> ganó el torneo interescolar.</p>
+                                    </a>
+                                </div>
+                                <span class="notify-time">Hace 2 horas</span>
+                            </li>
+                            <li class="media dropdown-item">
+                                <span class="primary"><i class="ti-announcement"></i></span>
+                                <div class="media-body">
+                                    <a href="#">
+                                        <p>Nueva actividad: <strong>Club de Robótica</strong> disponible para inscripción.</p>
+                                    </a>
+                                </div>
+                                <span class="notify-time">Hace 3 horas</span>
+                            </li>
+                        </ul>
                             <a class="all-notification" href="#">Ver todas las notificaciones <i class="ti-arrow-right"></i></a>
                         </div>
                     </li>
@@ -77,17 +81,17 @@
                             <i class="mdi mdi-account"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a href="./app-profile.html" class="dropdown-item">
+                            <a href="./perfil.php" class="dropdown-item">
                                 <i class="icon-user"></i>
-                                <span class="ml-2">Perfil</span>
+                                <span class="ml-2">Mi Perfil</span>
                             </a>
-                            <a href="./email-inbox.html" class="dropdown-item">
-                                <i class="icon-envelope-open"></i>
-                                <span class="ml-2">Bandeja de entrada</span>
+                            <a href="./mis-actividades.php" class="dropdown-item">
+                                <i class="icon-calendar"></i>
+                                <span class="ml-2">Mis Actividades</span>
                             </a>
-                            <a href="./page-login.html" class="dropdown-item">
+                            <a href="./logout.php" class="dropdown-item">
                                 <i class="icon-key"></i>
-                                <span class="ml-2">Cerrar sesión</span>
+                                <span class="ml-2">Cerrar Sesi�n</span>
                             </a>
                         </div>
                     </li>

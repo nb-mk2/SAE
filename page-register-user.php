@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Focus - Bootstrap Admin Dashboard </title>
-    <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
-    <link href="./css/style.css" rel="stylesheet">
-
-</head>
+<?php require_once "./head.php";?>
 
 <body class="h-100">
     <div class="authincation h-100">
@@ -22,7 +13,7 @@
                             <div class="col-xl-12">
                                 <div class="auth-form">
                                     <h4 class="text-center mb-4">Crea tu cuenta SISTEMA SAE</h4>
-                                    <form action="page-login.html">
+                                    <form action="page-login.php">
                                         <div class="form-group">
                                             <label><strong>Usuario</strong></label>
                                             <input type="text" class="form-control" placeholder="usuario">
