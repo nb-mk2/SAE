@@ -35,7 +35,7 @@
                                         </div>
                                     </form>
                                     <div class="new-account mt-3">
-                                        <p>¿Ya tienes una cuenta? <a class="text-primary" href="page-login.html">Inicia sesión</a></p>
+                                        <p>¿Ya tienes una cuenta? <a class="text-primary" href="page-login.php">Inicia sesión</a></p>
                                     </div>
                                 </div>
                             </div>

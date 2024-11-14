@@ -24,22 +24,22 @@
                         <li><a href="./form-tabla-sae.php">Ver mis SAE</a></li>
                     </ul>
             </li>
-            <li class="nav-label">Menu Suscriptor</li>
+            <!--<li class="nav-label">Menu Suscriptor</li>
             <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                 class="icon icon-app-store"></i><span class="nav-text">Actividades</span></a>
                     <ul aria-expanded="false">
-                        <!-- <li><a href="./app-profile.php">Profile</a></li>
+                         <li><a href="./app-profile.php">Profile</a></li>
                         <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
                             <ul aria-expanded="false">
                                 <li><a href="./email-compose.php">Compose</a></li>
                                 <li><a href="./email-inbox.php">Inbox</a></li>
                                 <li><a href="./email-read.php">Read</a></li>
                             </ul>
-                        </li> -->
+                        </li> 
                         <li><a href="./app-calender.php">Listado de Actividades </a></li>
                         <li><a href="./app-calender.php">Ver mis Actividades</a></li>
                     </ul>
-            </li>
+            </li>-->
             
         </ul>
     </div>

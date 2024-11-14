@@ -89,9 +89,9 @@ mb_http_output('UTF-8');
                                 <i class="icon-calendar"></i>
                                 <span class="ml-2">Mis Actividades</span>
                             </a>
-                            <a href="./logout.php" class="dropdown-item">
+                            <a href="./page-login.php" class="dropdown-item">
                                 <i class="icon-key"></i>
-                                <span class="ml-2">Cerrar Sesi�n</span>
+                                <span class="ml-2">Cerrar Sesión</span>
                             </a>
                         </div>
                     </li>
