@@ -28,3 +28,7 @@
 
 
 <script src="./js/dashboard/dashboard-1.js"></script>
+
+<!-- Select2 Search -->
+<script src="./vendor/select2/js/select2.full.min.js"></script>
+<script src="./js/plugins-init/select2-init.js"></script>

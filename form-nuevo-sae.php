@@ -75,27 +75,98 @@
                 <div class="basic-form">
                     <form>
                         <div class="form-row">
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-2">
+                                <label>Tipo de Actividad</label>
+                                <select class="form-control" id="single-select" placeholder="Seleccione Tipo de actividad ">
+                                    <option value="" disabled>Tipo de Actividad</option>
+                                    <option>GRADO</option>
+                                    <option>POS-GRADO</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
                                 <label>Nombre de la Actividad</label>
                                 <input type="text" class="form-control" placeholder="Escriba aquí un nombre corto a modo de título">
-                            </div>
+                            </div>                           
                             <div class="form-group col-md-6">
                                 <label>Breve descripción de la Actividad</label>
-                                <textarea class="form-control" rows="3" placeholder="Descripción de la actividad"></textarea>
+                                <textarea class="form-control" rows="5" placeholder="Descripción de la actividad"></textarea>
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-2">
+                                <label>Organización</label>
+                                <select class="form-control select2-with-label-single" id="single-select">
+                                    <option value="" disabled>Seleccione Organización</option>
+                                    <option>GrIDIE-FCEyN-UNLPam </option>
+                                    <option>GrFFS-FCEyN-UNLPam</option>
+                                    <option>GrMAT-FCEyN-UNLPam</option>
+                                </select>
+                            </div>                           
+                        </div>
+                        <div class="form-row">
+                            <div class="col-xl-4">
+                                <label>Docentes responsables</label>
+                                    <select class="multi-select" name="states[]" multiple="multiple">
+                                        <option value="AL">Nicolás Baudis - DNI:41642565</option>
+                                        <option value="WY">Pedro Sanchez - DNI:41234432</option>
+                                        <option value="UI">Lucia Fernandez - DNI:36243324</option>
+                                        <option value="UI">Romina Perez- DNI:30434553</option>
+                                    </select>
+                            </div>
+                            <div class="col-xl-4">
+                                <label>Docente colaborador/a</label>
+                                    <select class="multi-select" name="states[]" multiple="multiple">
+                                        <option value="AL">Nicolás Baudis - DNI:41642565</option>
+                                        <option value="WY">Pedro Sanchez - DNI:41234432</option>
+                                        <option value="UI">Lucia Fernandez - DNI:36243324</option>
+                                        <option value="UI">Romina Perez- DNI:30434553</option>
+                                    </select>
+                            </div>
+                            <div class="col-xl-4">
+                                <label>Coordinadores</label>
+                                    <select class="multi-select" name="states[]" multiple="multiple">
+                                        <option value="AL">NICOLÁS BAUDIS - DNI:41642565</option>
+                                        <option value="WY">PEDRO SANCHEZ - DNI:41234432</option>
+                                        <option value="UI">LUCIA FERNADEZ - DNI:36243324</option>
+                                        <option value="UI">ROMINA PEREZ- DNI:30434553</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col-md-2">
                                 <label>Fecha de la Actividad</label>
                                 <input type="date" class="form-control">
                             </div>
-                            <div class="form-group col-md-3">
+                            <div class="form-group col-md-2">
                                 <label>Hora de Inicio</label>
                                 <input type="time" class="form-control">
                             </div>
-                            <div class="form-group col-md-3">
+                            <div class="form-group col-md-2">
                                 <label>Hora de Fin</label>
                                 <input type="time" class="form-control">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label>Cupo disponible</label>
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label>Requisito</label>
+                                <select class="form-control" id="single-select" placeholder="Seleccione requisto ">
+                                    <option value="" disabled>Seleccione Requisito</option>
+                                    <option>ASISTENCIA/APROBADO</option>
+                                    <option>APROBADO</option>
+                                    <option>ASISTENCIA</option>                                    
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label>Tipo de Calificación</label>
+                                <select class="form-control" id="single-select" placeholder="Seleccione requisto ">
+                                    <option value="" disabled>Seleccione opción</option>
+                                    <option>NUMÉRICA</option>
+                                    <option>CONCEPTUAL</option>    
+                                    <option>SIN CALIFICACIÓN</option>                                                                    
+                                </select>
                             </div>
                         </div>
                         <div class="form-row">
