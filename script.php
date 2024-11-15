@@ -32,3 +32,8 @@
 <!-- Select2 Search -->
 <script src="./vendor/select2/js/select2.full.min.js"></script>
 <script src="./js/plugins-init/select2-init.js"></script>
+
+ <!-- Summernote -->
+ <script src="./vendor/summernote/js/summernote.min.js"></script>
+    <!-- Summernote init -->
+    <script src="./js/plugins-init/summernote-init.js"></script>

@@ -12,4 +12,5 @@
     <link href="./css/style.css" rel="stylesheet">
     <link href="./vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./vendor/select2/css/select2.min.css">
+    <link href="./vendor/summernote/summernote.css" rel="stylesheet">
 </head>

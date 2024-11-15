@@ -134,23 +134,38 @@
                         </div>
                         <br>
                         <div class="form-row">
-                            <div class="form-group col-md-2">
+                            <div class="form-group col-md-3">
                                 <label>Fecha de la Actividad</label>
                                 <input type="date" class="form-control">
                             </div>
-                            <div class="form-group col-md-2">
+                            <div class="form-group col-md-3">
                                 <label>Hora de Inicio</label>
                                 <input type="time" class="form-control">
                             </div>
-                            <div class="form-group col-md-2">
+                            <div class="form-group col-md-3">
                                 <label>Hora de Fin</label>
                                 <input type="time" class="form-control">
                             </div>
-                            <div class="form-group col-md-2">
+                            <div class="form-group col-md-3">
                                 <label>Cupo disponible</label>
                                 <input type="number" class="form-control">
+                            </div>                            
+                        </div>
+                        <br>
+                        <div class="form-row">
+                        <div class="form-group col-md-3">
+                                <label>Modalidad</label>
+                                <select class="form-control" id="single-select" placeholder="Seleccione requisto ">
+                                    <option value="" disabled>Seleccione Modalidad</option>
+                                    <option>PRESENCIAL</option>
+                                    <option>VITUAL</option>                                   
+                                </select>
                             </div>
-                            <div class="form-group col-md-2">
+                            <div class="form-group col-md-3">
+                                <label>Carga Horaria</label>
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="form-group col-md-3">
                                 <label>Requisito</label>
                                 <select class="form-control" id="single-select" placeholder="Seleccione requisto ">
                                     <option value="" disabled>Seleccione Requisito</option>
@@ -159,7 +174,7 @@
                                     <option>ASISTENCIA</option>                                    
                                 </select>
                             </div>
-                            <div class="form-group col-md-2">
+                            <div class="form-group col-md-3">
                                 <label>Tipo de Calificación</label>
                                 <select class="form-control" id="single-select" placeholder="Seleccione requisto ">
                                     <option value="" disabled>Seleccione opción</option>
@@ -167,6 +182,78 @@
                                     <option>CONCEPTUAL</option>    
                                     <option>SIN CALIFICACIÓN</option>                                                                    
                                 </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Fundamentación:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Objetivos:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Detalle sobre Dictado:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Metodología de abordaje académico:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Programa:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Bibliografía y material digital en página web:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="form-row">
