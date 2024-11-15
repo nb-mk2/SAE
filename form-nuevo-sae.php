@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group col-md-2">
+                            <div class="form-group col-md-4">
                                 <label>Organización</label>
                                 <select class="form-control select2-with-label-single" id="single-select">
                                     <option value="" disabled>Seleccione Organización</option>
@@ -135,7 +135,11 @@
                         <br>
                         <div class="form-row">
                             <div class="form-group col-md-3">
-                                <label>Fecha de la Actividad</label>
+                                <label>Fecha Inicio Actividad</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label>Fecha Fin Actividad</label>
                                 <input type="date" class="form-control">
                             </div>
                             <div class="form-group col-md-3">
@@ -145,14 +149,14 @@
                             <div class="form-group col-md-3">
                                 <label>Hora de Fin</label>
                                 <input type="time" class="form-control">
-                            </div>
-                            <div class="form-group col-md-3">
-                                <label>Cupo disponible</label>
-                                <input type="number" class="form-control">
-                            </div>                            
+                            </div>                                                  
                         </div>
                         <br>
                         <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <label>Cupo disponible</label>
+                            <input type="number" class="form-control">
+                        </div> 
                         <div class="form-group col-md-3">
                                 <label>Modalidad</label>
                                 <select class="form-control" id="single-select" placeholder="Seleccione requisto ">
@@ -249,6 +253,78 @@
                                 <div class="card">
                                     <div class="card-header">
                                         <h4 class="card-title">Bibliografía y material digital en página web:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Arancel:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Requerimiento de espacios físicos, medios tecnológicos, plataformas virtuales, etc.:</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Criterios de Evaluación</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Requisitos de Aprobación </h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Instrumentos de Evaluación </h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Certificado </h4>
                                     </div>
                                     <div class="card-body">
                                         <div class="summernote"></div>
