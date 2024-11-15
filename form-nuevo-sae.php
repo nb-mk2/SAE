@@ -332,6 +332,30 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">CORRESPONDE AL ANEXO DE LA RESOLUCIÓN Nº 291/24</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-xxl-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Formas de financiamiento  </h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="summernote"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                             <div class="input-group mb-3 flex-wrap">
