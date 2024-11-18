@@ -316,7 +316,7 @@
 .navmenu-default .navmenu-nav > .open > a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav > .open > a:focus {
   background-color: #e7e7e7;
-  color: #555555;
+  color: #934100;
 }
 .navmenu-default .navmenu-nav > .open > a .caret,
 .navbar-default .navbar-offcanvas .navmenu-nav > .open > a .caret,
@@ -324,8 +324,8 @@
 .navbar-default .navbar-offcanvas .navmenu-nav > .open > a:hover .caret,
 .navmenu-default .navmenu-nav > .open > a:focus .caret,
 .navbar-default .navbar-offcanvas .navmenu-nav > .open > a:focus .caret {
-  border-top-color: #555555;
-  border-bottom-color: #555555;
+  border-top-color: #934100;
+  border-bottom-color: #934100;
 }
 .navmenu-default .navmenu-nav > .dropdown > a .caret,
 .navbar-default .navbar-offcanvas .navmenu-nav > .dropdown > a .caret {
@@ -365,7 +365,7 @@
 .navbar-default .navbar-offcanvas .navmenu-nav > .active > a:hover,
 .navmenu-default .navmenu-nav > .active > a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav > .active > a:focus {
-  color: #555555;
+  color: #934100;
   background-color: #e7e7e7;
 }
 .navmenu-default .navmenu-nav > .disabled > a,

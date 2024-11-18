@@ -463,7 +463,7 @@
             "gridCount": 50,
             "gridAlpha": 0.1,
             // "gridColor": "#FFFFFF",
-            "axisColor": "#555555",
+            "axisColor": "#934100",
             "dateFormats": [{
                 "period": 'DD',
                 "format": 'DD'
