@@ -54,13 +54,13 @@
                     <div class="col-sm-6 p-md-0">
                         <div class="welcome-text">
                             <h4>Hola, @usuario!!</h4>
-                            <span class="ml-1">Element</span>
+                            <span class="ml-1">Nuevo SAE</span>
                         </div>
                     </div>
                     <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0)">Form</a></li>
-                            <li class="breadcrumb-item active"><a href="javascript:void(0)">Element</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0)">Formulario</a></li>
+                            <li class="breadcrumb-item active"><a href="javascript:void(0)">Nuevo SAE</a></li>
                         </ol>
                     </div>
                 </div>

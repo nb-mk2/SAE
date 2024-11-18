@@ -85,7 +85,7 @@ mb_http_output('UTF-8');
                                 <i class="icon-user"></i>
                                 <span class="ml-2">Mi Perfil</span>
                             </a>
-                            <a href="./mis-actividades.php" class="dropdown-item">
+                            <a href="./form-tabla-sae.php" class="dropdown-item">
                                 <i class="icon-calendar"></i>
                                 <span class="ml-2">Mis Actividades</span>
                             </a>

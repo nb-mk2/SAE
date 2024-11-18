@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <?php require_once "./head.php";?>
 
@@ -59,13 +59,13 @@
                     <div class="col-sm-6 p-md-0">
                         <div class="welcome-text">
                             <h4>Hola, @usuario!!</h4>
-                            <span class="ml-1">Datatable</span>
+                            <span class="ml-1">SAE</span>
                         </div>
                     </div>
                     <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="javascript:void(0)">Table</a></li>
-                            <li class="breadcrumb-item active"><a href="javascript:void(0)">Datatable</a></li>
+                            <li class="breadcrumb-item active"><a href="javascript:void(0)">SAE</a></li>
                         </ol>
                     </div>
                 </div>
@@ -81,69 +81,69 @@
                             <div class="card-body">
                                 <div class="table-responsive">
                                 <table id="example" class="display" style="min-width: 845px">
-    <thead>
-        <tr>
-            <th>Fecha</th>
-            <th>Nombre Actividad</th>
-            <th>Hora Inicio</th>
-            <th>Hora Fin</th>
-            <th>Detalle PDF</th>
-            <th>Estado</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>15/03/2023</td>
-            <td>Actividad de Fútbol</td>
-            <td>10:00</td>
-            <td>12:00</td>
-            <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
-            <td>Activo</td>
-        </tr>
-        <tr>
-            <td>20/03/2023</td>
-            <td>Clase de Danza</td>
-            <td>14:00</td>
-            <td>16:00</td>
-            <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
-            <td>Activo</td>
-        </tr>
-        <tr>
-            <td>25/03/2023</td>
-            <td>Charla sobre Tecnología</td>
-            <td>09:00</td>
-            <td>11:00</td>
-            <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
-            <td>Programado</td>
-        </tr>
-        <tr>
-            <td>30/03/2023</td>
-            <td>Exposición de Arte</td>
-            <td>18:00</td>
-            <td>20:00</td>
-            <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
-            <td>Activo</td>
-        </tr>
-        <tr>
-            <td>05/04/2023</td>
-            <td>Competencia de Ajedrez</td>
-            <td>15:00</td>
-            <td>17:00</td>
-            <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
-            <td>Finalizado</td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <th>Fecha</th>
-            <th>Nombre Actividad</th>
-            <th>Hora Inicio</th>
-            <th>Hora Fin</th>
-            <th>Detalle PDF</th>
-            <th>Estado</th>
-        </tr>
-    </tfoot>
-</table>
+                                        <thead>
+                                            <tr>
+                                                <th>Fecha</th>
+                                                <th>Nombre Actividad</th>
+                                                <th>Hora Inicio</th>
+                                                <th>Hora Fin</th>
+                                                <th>Detalle PDF</th>
+                                                <th>Estado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>15/03/2023</td>
+                                                <td>Actividad de Fútbol</td>
+                                                <td>10:00</td>
+                                                <td>12:00</td>
+                                                <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
+                                                <td>Activo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>20/03/2023</td>
+                                                <td>Clase de Danza</td>
+                                                <td>14:00</td>
+                                                <td>16:00</td>
+                                                <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
+                                                <td>Activo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>25/03/2023</td>
+                                                <td>Charla sobre Tecnología</td>
+                                                <td>09:00</td>
+                                                <td>11:00</td>
+                                                <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
+                                                <td>Programado</td>
+                                            </tr>
+                                            <tr>
+                                                <td>30/03/2023</td>
+                                                <td>Exposición de Arte</td>
+                                                <td>18:00</td>
+                                                <td>20:00</td>
+                                                <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
+                                                <td>Activo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>05/04/2023</td>
+                                                <td>Competencia de Ajedrez</td>
+                                                <td>15:00</td>
+                                                <td>17:00</td>
+                                                <td><a href="ruta/a/tu/documento.pdf" target="_blank"><img src="images/ico-pdf.png" alt="PDF" style="width: 30px; height: 30px;"></a></td>
+                                                <td>Finalizado</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>Fecha</th>
+                                                <th>Nombre Actividad</th>
+                                                <th>Hora Inicio</th>
+                                                <th>Hora Fin</th>
+                                                <th>Detalle PDF</th>
+                                                <th>Estado</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -192,6 +192,27 @@
     <script src="./vendor/datatables/js/jquery.dataTables.min.js"></script>
     <script src="./js/plugins-init/datatables.init.js"></script>
 
+    <script>
+       $(document).ready(function() {
+       if (!$.fn.DataTable.isDataTable('#example')) {
+           $('#example').DataTable({
+               language: {
+                   search: "Buscar:",
+                   lengthMenu: "Mostrar _MENU_ registros por página",
+                   info: "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                   infoEmpty: "No hay registros disponibles",
+                   infoFiltered: "(filtrado de _MAX_ registros en total)",
+                   paginate: {
+                       first: "Primero",
+                       last: "Último",
+                       next: "Siguiente",
+                       previous: "Anterior"
+                   }
+               }
+           });
+       }
+   });
+    </script>
 </body>
 
 </html>
