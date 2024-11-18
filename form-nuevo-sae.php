@@ -73,7 +73,7 @@
             </div>
             <div class="card-body">
                 <div class="basic-form">
-                    <form>
+                    <form action="form-tabla-sae.php" method="POST">
                         <div class="form-row">
                             <div class="form-group col-md-2">
                                 <label>Tipo de Actividad</label>
