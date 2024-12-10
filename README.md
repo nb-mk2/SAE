@@ -31,14 +31,12 @@ Para darle vida al proyecto, se usan bibliotecas como **Chart.js**, **Chartist**
 
 - **Archivos clave**: 
   - `chart-*` (por ejemplo, `chart-chartist.php`, `chart-chartjs.php`): Archivos de gráficos.
-  - `email-*` (por ejemplo, `email-compose.php`, `email-inbox.php`): Gestión de correos electrónicos.
 
 ### 🔧 **PHP**
 
 Al migrar las páginas a PHP, ahora se puede interactuar dinámicamente con la base de datos y generar contenido según las necesidades que necesite el usuario.
 
 - **Archivos clave**:
-  - `Res57421PresentacindeactividadesAcadmicasExtracurriculares.php`: Migración de una página de actividades académicas.
   - `index.php.php`: Página para mostrar el panel administrador para el usuario principal.
   - - `form-*` (por ejemplo, `form-nuevo-sae.php`, `form-tabla-sae.php`): Formularios para la carga de la actividad extracurricular.
   - - `form-*` (por ejemplo, `form-tabla-sae.php`, `form-tabla-sae.php`): Tabla para poder ver las activiades cargadas, esto va ir variando dependiendo el rol del Usuario.
